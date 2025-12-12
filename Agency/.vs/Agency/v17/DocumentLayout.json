@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\auth.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|solutionrelative:auth.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|solutionrelative:Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\auth.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|solutionrelative:auth.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|solutionrelative:Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Agentstvo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|solutionrelative:Agentstvo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Agentstvo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|solutionrelative:Agentstvo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CBDE5BA9-1106-486A-A800-3FEAE63C740D}|Agency.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "auth.h",
+              "DocumentMoniker": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\auth.h",
+              "RelativeDocumentMoniker": "auth.h",
+              "ToolTip": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\auth.h",
+              "RelativeToolTip": "auth.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-12T09:53:00.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "auth.cpp",
+              "DocumentMoniker": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\auth.cpp",
+              "RelativeDocumentMoniker": "auth.cpp",
+              "ToolTip": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\auth.cpp",
+              "RelativeToolTip": "auth.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T09:52:43.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.h",
+              "DocumentMoniker": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Menu.h",
+              "RelativeDocumentMoniker": "Menu.h",
+              "ToolTip": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Menu.h",
+              "RelativeToolTip": "Menu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-12T09:52:22.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.cpp",
+              "DocumentMoniker": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Menu.cpp",
+              "RelativeDocumentMoniker": "Menu.cpp",
+              "ToolTip": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Menu.cpp",
+              "RelativeToolTip": "Menu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T09:51:58.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Agentstvo.h",
+              "DocumentMoniker": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Agentstvo.h",
+              "RelativeDocumentMoniker": "Agentstvo.h",
+              "ToolTip": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Agentstvo.h",
+              "RelativeToolTip": "Agentstvo.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-12T09:49:51.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Agentstvo.cpp",
+              "DocumentMoniker": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Agentstvo.cpp",
+              "RelativeDocumentMoniker": "Agentstvo.cpp",
+              "ToolTip": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Agentstvo.cpp",
+              "RelativeToolTip": "Agentstvo.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T09:49:35.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "D:\\1VRPO\\VrpoProject\\Recruitment\\Agency\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T09:45:52.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
