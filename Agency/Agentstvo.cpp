@@ -9,7 +9,7 @@ void Agentstvo::addSoiskatel() {
     std::cout << "Введите имя: ";
     std::cin >> name;
     std::cout << "Введите возраст: ";
-    while (!(std::cin >> age)  age >= 70  age < 18) {
+    while (!(std::cin >> age) || age >= 70 || age < 18) {
         std::cout << "Ошибка ввода. Введите целое число для возраста (18-70 лет): ";
         std::cin.clear();
         while (std::cin.get() != '\n') continue;
@@ -24,7 +24,7 @@ void Agentstvo::addSoiskatel() {
     education = (eduInput == 1);
 
     std::cout << "Введите опыт работы в годах: ";
-    while (!(std::cin >> experience)  (experience > age - 16)  (experience < 0)) {
+    while (!(std::cin >> experience) || (experience > age - 16) || (experience < 0)) {
         std::cout << "Ошибка ввода (опыт не может превышать время от возможной работы (с 16 лет)): ";
         std::cin.clear();
         while (std::cin.get() != '\n') continue;
@@ -115,10 +115,9 @@ void Agentstvo::updateSoiskatel(int index) {
         case 2: {
             int newAge;
             std::cout << "Введите новый возраст: ";
-            while (!(std::cin >> newAge)  newAge >= 70  newAge <= 18) {
-                std::cout << "Ошибка ввода. ВведитеМатвей борода, [Ср. 17.12.2025 19:29]
-                    Введите возраст от 18 - 70 лет: ";
-                    std::cin.clear();
+            while (!(std::cin >> newAge) || newAge >= 70 || newAge <= 18) {
+                std::cout << "Ошибка ввода. Введите возраст от 18-70 лет: ";
+                std::cin.clear();
                 while (std::cin.get() != '\n') continue;
             }
             s.age = newAge;
@@ -230,11 +229,8 @@ void Agentstvo::searchByOpyt(int minexp) {
                 << std::setw(18) << (s.education ? "Да" : "Нет")
                 << std::setw(10) << s.experience
                 << std::setw(20) << s.sector
-                << std::setw(30) << s.email << "\n
-
-                Матвей борода, [Ср. 17.12.2025 19:29]
-                ";
-                found = true;
+                << std::setw(30) << s.email << "\n";
+            found = true;
             std::cout << std::string(100, '_') << "\n";
         }
     }
@@ -289,7 +285,7 @@ void Agentstvo::searchPo() {
         std::cout << "4. Назад\n";
 
         std::cout << "Выбор: ";
-        while (!(std::cin >> vib)  (vib < 1  vib > 4)) {
+        while (!(std::cin >> vib) || (vib < 1 || vib > 4)) {
             std::cout << "Ошибка ввода. Пожалуйста, введите 1, 2, 3 или 4: ";
             std::cin.clear();
             while (std::cin.get() != '\n') continue;
@@ -364,13 +360,10 @@ void Agentstvo::saveToFile() {
 
 void Agentstvo::loadFromFile() {
     std::ifstream file("soiskateli.txt");
-    if
-
-        Матвей борода, [Ср. 17.12.2025 19:29]
-        (!file.is_open()) {
+    if (!file.is_open()) {
         std::cout << "Файл данных не найден, будет создан новый при сохранении.\n";
         return;
-        }
+    }
 
     soiskateli.clear();
     std::string line;

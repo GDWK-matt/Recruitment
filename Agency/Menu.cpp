@@ -18,7 +18,7 @@ void Menu::adminMenu(Agentstvo& agency, AuthSystem& auth) {
             << "Выбор: ";
 
         int choice;
-        while (!(std::cin >> choice)  (choice < 1  choice > 9)) {
+        while (!(std::cin >> choice) || (choice < 1 || choice > 9)) {
             std::cout << "Ошибка ввода. Пожалуйста, введите 1 - 9: ";
             std::cin.clear();
             while (std::cin.get() != '\n') continue;
@@ -75,7 +75,7 @@ void Menu::adminMenu(Agentstvo& agency, AuthSystem& auth) {
             std::cout << "1. Да \n";
             std::cout << "2. Нет \n";
             int f;
-            while (!(std::cin >> f)  (f < 1  f > 2)) {
+            while (!(std::cin >> f) || (f < 1 || f > 2)) {
                 std::cout << "Ошибка ввода. Пожалуйста, введите 1 или 2: ";
                 std::cin.clear();
                 while (std::cin.get() != '\n') continue;
@@ -109,9 +109,7 @@ void Menu::adminMenu(Agentstvo& agency, AuthSystem& auth) {
         }
         case 6: {
             system("cls");
-            std::cout <<
-
-                std::string(100, '=') << "\n";
+            std::cout << std::string(100, '=') << "\n";
             auth.showAllUsers();
             std::cout << "\n Введите 0, чтобы вернуться назад:";
             int naz;
@@ -189,7 +187,7 @@ void Menu::adminMenu(Agentstvo& agency, AuthSystem& auth) {
             std::cout << "1. Да \n";
             std::cout << "2. Нет \n";
             int flag;
-            while (!(std::cin >> flag)  (flag < 1  flag > 2)) {
+            while (!(std::cin >> flag) || (flag < 1 || flag > 2)) {
                 std::cout << "Ошибка ввода. Пожалуйста, введите 1 или 2: ";
                 std::cin.clear();
                 while (std::cin.get() != '\n') continue;
@@ -209,10 +207,7 @@ void Menu::adminMenu(Agentstvo& agency, AuthSystem& auth) {
                 std::cout << "\n Введите 0, чтобы вернуться назад:";
                 int naz;
                 while (!(std::cin >> naz) || naz != 0) {
-                    std::cout
-
-
-                        << "Ошибка ввода. Пожалуйста, введите 0: ";
+                    std::cout << "Ошибка ввода. Пожалуйста, введите 0: ";
                     std::cin.clear();
                     while (std::cin.get() != '\n') continue;
                 }
@@ -240,7 +235,7 @@ void Menu::userMenu(Agentstvo& agency, const std::string& username) {
             << "Выбор: ";
 
         int employerChoice;
-        while (!(std::cin >> employerChoice)  (employerChoice < 1 employerChoice > 6)) {
+        while (!(std::cin >> employerChoice) || (employerChoice < 1 || employerChoice > 6)) {
             std::cout << "Ошибка ввода. Пожалуйста, введите 1-6: ";
             std::cin.clear();
             while (std::cin.get() != '\n') continue;
