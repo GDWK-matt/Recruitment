@@ -1,0 +1,31 @@
+﻿  Agentstvo.cpp
+  auth.cpp
+  Main.cpp
+  Menu.cpp
+  Создание кода...
+D:\Recruitment\Agency\Menu.cpp(21,27): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+D:\Recruitment\Agency\Menu.cpp(78,46): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "f"
+D:\Recruitment\Agency\Menu.cpp(78,31): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+D:\Recruitment\Agency\Menu.cpp(78,51): error C2059: синтаксическая ошибка: )
+D:\Recruitment\Agency\Menu.cpp(78,52): error C2059: синтаксическая ошибка: )
+D:\Recruitment\Agency\Menu.cpp(79,106): error C2059: синтаксическая ошибка: ;
+D:\Recruitment\Agency\Menu.cpp(83,17): error C2065: f: необъявленный идентификатор
+D:\Recruitment\Agency\Menu.cpp(84,40): error C2065: index: необъявленный идентификатор
+D:\Recruitment\Agency\Menu.cpp(96,9): error C2046: недопустимый вариант выбора
+D:\Recruitment\Agency\Menu.cpp(110,9): error C2046: недопустимый вариант выбора
+D:\Recruitment\Agency\Menu.cpp(125,9): error C2046: недопустимый вариант выбора
+D:\Recruitment\Agency\Menu.cpp(181,9): error C2046: недопустимый вариант выбора
+D:\Recruitment\Agency\Menu.cpp(192,52): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "flag"
+D:\Recruitment\Agency\Menu.cpp(192,31): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+D:\Recruitment\Agency\Menu.cpp(192,60): error C2059: синтаксическая ошибка: )
+D:\Recruitment\Agency\Menu.cpp(192,61): error C2059: синтаксическая ошибка: )
+D:\Recruitment\Agency\Menu.cpp(193,106): error C2059: синтаксическая ошибка: ;
+D:\Recruitment\Agency\Menu.cpp(197,21): error C2065: flag: необъявленный идентификатор
+D:\Recruitment\Agency\Menu.cpp(197,21): error C2050: значение выражения для варианта выбора не является целым
+D:\Recruitment\Agency\Menu.cpp(199,37): error C2065: username: необъявленный идентификатор
+D:\Recruitment\Agency\Menu.cpp(225,5): error C2059: синтаксическая ошибка: }
+D:\Recruitment\Agency\Menu.cpp(225,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+D:\Recruitment\Agency\Menu.cpp(226,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+D:\Recruitment\Agency\Menu.cpp(226,1): error C2059: синтаксическая ошибка: }
+D:\Recruitment\Agency\Menu.cpp(228,69): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+D:\Recruitment\Agency\Menu.cpp(228,69): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
